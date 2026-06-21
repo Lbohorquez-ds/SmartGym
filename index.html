@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Gym</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Desarrollo de sistemas de la Info.</div>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <ul class="menu" id="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#propuesta1">Propuesta de solución</a></li>
+        <li><a href="#arquitectura">Arquitectura técnica</a></li>
+        <li><a href="#plan1">Plan de trabajo</a></li>
+        <li><a href="#equipo">Equipo</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#fin">Fin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="slide sin-botones">
+      <img src="img/inicio.png" alt="Inicio Smart Gym">
+    </section>
+
+    <section id="propuesta1" class="slide con-botones">
+      <img src="img/propuesta_de_solucion1.png" alt="Problema y objetivo">
+      <div class="botones solo-derecha">
+        <a class="btn" href="#propuesta2">Siguiente</a>
+      </div>
+    </section>
+
+    <section id="propuesta2" class="slide con-botones">
+      <img src="img/propuesta_de_solucion2.png" alt="Alcances y limitaciones">
+      <div class="botones">
+        <a class="btn btn-secundario" href="#propuesta1">Atrás</a>
+        <a class="btn" href="#propuesta3">Siguiente</a>
+      </div>
+    </section>
+
+    <section id="propuesta3" class="slide con-botones">
+      <img src="img/propuesta_de_solucion3.png" alt="Qué hace Smart Gym">
+      <div class="botones">
+        <a class="btn btn-secundario" href="#propuesta2">Atrás</a>
+        <a class="btn" href="#propuesta4">Siguiente</a>
+      </div>
+    </section>
+
+    <section id="propuesta4" class="slide con-botones">
+      <img src="img/propuesta_de_solucion4.png" alt="Diferencias de Smart Gym">
+      <div class="botones">
+        <a class="btn btn-secundario" href="#propuesta3">Atrás</a>
+      </div>
+    </section>
+
+    <section id="arquitectura" class="slide sin-botones">
+      <img src="img/arquitectura_tecnica.png" alt="Arquitectura técnica">
+    </section>
+
+    <section id="plan1" class="slide con-botones">
+      <img src="img/plan_de_trabajo1.png" alt="Organización">
+      <div class="botones">
+        <a class="btn" href="#plan2">Siguiente</a>
+      </div>
+    </section>
+
+    <section id="plan2" class="slide con-botones">
+      <img src="img/plan_de_trabajo2.png" alt="Plan de trabajo">
+      <div class="botones">
+        <a class="btn btn-secundario" href="#plan1">Atrás</a>
+      </div>
+    </section>
+
+    <section id="equipo" class="slide sin-botones">
+      <img src="img/equipo.png" alt="Equipo Smart Gym">
+    </section>
+
+    <section id="demo" class="slide sin-botones">
+      <img src="img/demo.png" alt="Demo Smart Gym">
+    </section>
+
+    <section id="fin" class="slide sin-botones">
+      <img src="img/fin.png" alt="Fin Smart Gym">
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
