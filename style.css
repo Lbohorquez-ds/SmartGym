@@ -34,15 +34,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-style: none;
 }
 
 .logo {
-  color: #f5a21a;
+  color: orange;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 15px;
   letter-spacing: 1px;
+  text-decoration: none;
+  white-space: nowrap;
 }
-
 .menu {
   list-style: none;
   display: flex;
@@ -141,6 +143,11 @@ body {
   border: 2px solid #f5a21a;
 }
 
+.solo-derecha {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
 
 @media (max-width: 900px) {
   .header,
